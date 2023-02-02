@@ -1,0 +1,23 @@
+
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+
+PassengerAppRoot"/home/ghazukip/backend.getueys.net"
+PassengerBaseURI"!"
+PassengerNodejs"/home/ghazukip/nodevenv/backend.getweys.net/10/bin/node"
+
+PassengerApplype node
+PassengerStartupFile index.ts
+= DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+
+‹IfModule Litespeed>
+</Ifrodule>
+«fodule mod rewrite.c>
+RewriteEngine On
+Rewritease /
+RewriteRule ^indexl.htals - [L]
+RewriteCond %{REQUEST_FILENAME} ! -f
+RewriteCond %{REQUEST_FILENAM} ! -d 
+RewriteCond %{REQUEST_FILENAME} ! -1
+RewriteRole • /index. html [L]
+</Iftodule>
